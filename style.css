@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto:wght@100;400;500&family=Titillium+Web:wght@400;700&display=swap');
+
+/* Temel stil */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/highway-rns4vowiia5k0pt5.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    padding: 2.4% 8%;
+    max-width: 1500px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 12%;
+}
+.navbar-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+}
+.navbar-cars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(104, 216, 233);
+    transition: 0.5s;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.h1-color {
+    color: rgb(255, 255, 255);
+}
+
+.desc {
+    font-size: 16px;
+}
+
+.col {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 28px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid aqua;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    transition: 0.5s;
+}
+
+.cards {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: 1px solid aqua;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.card:hover{
+    transform:translateY(-10px) ;
+    transition: 0.5s;
+    border-color: white;
+}
+.card .card-head{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border-radius: 6px;
+    padding: 6px;
+    margin-top: 148px;
+    
+    
+   
+
+}
+.card .card-button{
+    position: absolute;
+    bottom: 25px;
+    
+
+}
+.card.card-1{
+    background-image:url(images/ca1d84b6-b582-4f19-8b1c-fab0308ba98d.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+.card.card-2{
+    background-image:url(images/bmw-fiyat-listesi-2021-tum-modeller-manset.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.card.card-3{
+    background-image:url(images/23c0022-010-6447d5287edfe.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.card.card-4{
+    background-image:url(images/ferrari.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+}
+.baslik{
+    padding: 50px;
+    color: white;
+}
+.container_about{
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(images/1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.about_card_title{
+    color: white;
+    padding-inline-start: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.paragraf{
+    padding-top: 50px;
+    font-size: 20px;
+    margin-bottom: 70px;
+    text-decoration: none;
+   
+}
+.paragraf-araclar{
+    padding-top: 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: azure;
+}
+.aciklama-renk{
+    color: azure;
+}
+.card_cars{
+   
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 100px;
+    width: calc(25% - 20px); /* Ekranın genişliğine göre sıralama yapacak şekilde ayarlandı */
+    box-sizing: border-box;
+    float: left;
+    height: 500px;
+        
+ }
+ .card_cars:hover{
+ 
+    transform:translateY(-10px) ;
+    transition: 0.5s;
+    border-color: white;
+        
+ }
+
+.card-img {
+    
+    max-width: 100%;
+    height: 200px;
+}
+.card-content {
+    text-align: center;
+}
+
+.card-icerik {
+    margin-top: 10px;
+}
+
+    .card-icerik ul {
+        list-style: none;
+        padding: 0;
+    }
+
+
+
+
